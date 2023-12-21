@@ -1,10 +1,10 @@
 # Django Project Template
 
-Welcome to the [Your Project Name] repository!
+Welcome to the Your_Project_Name repository!
 
 ## Getting Started
 
-These instructions will help you set up and run the project on your local machine for development and testing purposes. See the [Documentation](docs/) for more details.
+These instructions will help you set up and run the project on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -71,4 +71,4 @@ Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of 
 
 This project is licensed under the [AGPL-3.0] - see the LICENSE.md file for details.
 
-> Make sure to replace `[Your Project Name]`, `https://github.com/your-username/your-project.git`, `[License Name]`, and other placeholders with the appropriate values for your project. Additionally, you may want to customize the content further based on your project's specifics.
+> Make sure to replace `Your_Project_Name`, `https://github.com/your-username/your-project.git`, `[License Name]`, and other placeholders with the appropriate values for your project. Additionally, you may want to customize the content further based on your project's specifics.
