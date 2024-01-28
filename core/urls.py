@@ -31,9 +31,9 @@ urlpatterns = [
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-else:
-    #  serve media files in production mode
+# else:
+#     #  serve media files in production mode
 
-    urlpatterns += [
-        path(settings.MEDIA_URL, serve, {"document_root": settings.MEDIA_ROOT}),
-    ]
+#     urlpatterns += [
+#         path(settings.MEDIA_URL, serve, {"document_root": settings.MEDIA_ROOT}),
+#     ]
