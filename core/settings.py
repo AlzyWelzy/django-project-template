@@ -162,7 +162,7 @@ LOGGING = {
         "file": {
             "level": "ERROR",
             "class": "logging.FileHandler",
-            "filename": "logfile.log",  # Update this path
+            "filename": "logfile.log",
         },
     },
     "loggers": {
