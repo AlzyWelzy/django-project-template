@@ -14,26 +14,10 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
-from django.urls import path, include
-from app.views import *
-from django.conf.urls.static import static
-from django.conf import settings
-from django.views.static import serve
+from django.urls import path
 
 urlpatterns = [
-    path("", include("app.urls")),
     path("admin/", admin.site.urls),
 ]
-
-
-# Serve static and media files during development
-if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-# else:
-#     #  serve media files in production mode
-
-#     urlpatterns += [
-#         path(settings.MEDIA_URL, serve, {"document_root": settings.MEDIA_ROOT}),
-#     ]
